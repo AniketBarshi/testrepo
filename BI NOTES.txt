@@ -1,0 +1,13 @@
+1.Data Feed URL :-https://services.odata.org/Northwind/Northwind.svc from list of tables we will select orders and products
+
+Remove other columns to only display columns of interest (we had kept following columns of product table productid, productname, qtyperunit, unitinstock)
+
+Change the data type of the UnitsInStock column (change to whole number)
+
+Expand the Order_Details table (in order table select order_details column and choose all columns of order_details table)
+
+Calculate the line total for each Order_Details row (create linetotal as a new custom column with formula as order_details.unitprice*order_details.qty)
+
+Rename and reorder columns in the query (shift linetotal column after shipcountry)
+
+Combine the Products and Total Sales queries
